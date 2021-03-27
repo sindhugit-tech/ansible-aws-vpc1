@@ -11,7 +11,7 @@ PubSub1Cidr: 172.20.4.0/24
 PubSub1Cidr: 172.20.5.0/24
 PubSub1Cidr: 172.20.6.0/24
 
-# Region
+# Region of
 
 region: "us-east-2"
 
