@@ -17,8 +17,8 @@ region: "us-east-2"
 
 #Zone names
 
-zone1: "us_east-2a"
-zone2: "us_east-2b"
-zone3: "us_east-2c"
+zone1: us_east-2a
+zone2: us_east-2b
+zone3: us_east-2c
 
 state: present
