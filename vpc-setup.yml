@@ -36,7 +36,7 @@
           region: "{{ region }}"
           az: "{{ zone2 }}"
           state: "{{ state }}"
-          cidr: "{{ PubSub1Cidr }}"
+          cidr: "{{ PubSub2Cidr }}"
           map_public: yes
           resource_tags:
             Name: vprofile-pubsub2
@@ -48,7 +48,7 @@
           region: "{{ region }}"
           az: "{{ zone3 }}"
           state: "{{ state }}"
-          cidr: "{{ PubSub1Cidr }}"
+          cidr: "{{ PubSub3Cidr }}"
           map_public: yes
           resource_tags:
             Name: vprofile-pubsub3
