@@ -34,7 +34,6 @@
             from_port: 22
             to_port: 22
             cidr_ip: "{{MYIP}}"
-
       register: BastionSG_out
     - name: creating bastion host
       ec2:
