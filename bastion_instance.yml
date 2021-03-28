@@ -53,7 +53,7 @@
         count_tag:
          name: "Bastion_host"
          project: Vprofile
-         Owner: Devops Team
+         Owner: devops Team
         group_id: "{{ BastionSG_out.group_id }}"
       register: bastionhost_out
 
