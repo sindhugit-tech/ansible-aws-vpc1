@@ -1,7 +1,7 @@
 ---
 - name: Setup Vprofile Bastion Host
   hosts: localhost
-  conncetion: local
+  connection: local
   gather_facts: no
   tasks:
     - name: Import VPC setup Variables
@@ -45,15 +45,14 @@
         wait: yes
         wait_timeout: 300
         instance_tags:
-         name: "Bastion_host"
-         project: Vprofile
-         Owner: Devops Team
-
+          name: "Bastion_host"
+          project: Vprofile
+          Owner: Devops Team
         exact_count: 1
         count_tag:
-         name: "Bastion_host"
-         project: Vprofile
-         Owner: devops Team
+          name: "Bastion_host"
+          project: Vprofile
+          Owner: devops Team
         group_id: "{{ BastionSG_out.group_id }}"
       register: bastionhost_out
 
