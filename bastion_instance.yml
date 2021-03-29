@@ -8,7 +8,7 @@
       include_vars: vars/vpc-setup
 
     - name: Import VPC setup Variables
-      include_vars: vars/vpc_output_vars
+      include_vars: vars/vpc-output-vars
 
     - name: Create vprofile ec2 key
       ec2_key:
@@ -56,9 +56,9 @@
         vpc_subnet_id: "{{pubsub1id}}"
       register: bastionhost_out
 
-    - name: inser/update "BastionSGid" in vars/vpc_output_vars
+    - name: inser/update "BastionSGid" in vars/vpc-output-vars
       blocklinfile:
-        path: vars/vpc_output_vars
+        path: vars/vpc-output-vars
         backup: yes
         block:
           BastionSGid: "{{BastionSG_out.group_id}}"
