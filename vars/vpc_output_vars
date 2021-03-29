@@ -7,7 +7,7 @@ privsub1id: subnet-04333b23c99700fae
 privsub2id: subnet-0140eb5efe8c553f3
 privsub3id: subnet-092e1627ccfccf5a6
 igwid: igw-0108f95a398577b5c
-pubRTid:  rtb-07d5652c4d4cc74b1
+pubRTid: rtb-07d5652c4d4cc74b1
 NATGWid: nat-0255b2517c2386fea
 privRTid: rtb-0c5fe2e6b92d6d2c5
 BastionSGid:
