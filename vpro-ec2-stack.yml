@@ -121,7 +121,7 @@
           project: Vprofile
           Owner: Devops Team
         exact_count: 1
-          count_tag:
+        count_tag:
           name: "mc01"
           project: Vprofile
           Owner: Devops Team
