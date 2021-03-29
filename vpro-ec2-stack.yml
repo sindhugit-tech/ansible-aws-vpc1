@@ -160,15 +160,15 @@
         wait_timeout: 300
         instance_tags:
            name: "db01"
-            project: Vprofile
-            Owner: Devops Team
+           project: Vprofile
+           Owner: Devops Team
         exact_count: 1
         count_tag:
-            name: "db01"
-            project: Vprofile
-            Owner: Devops Team
-            group_id: "{{ vprostackSG_out.group_id }}"
-            vpc_subnet_id: "{{privsub1id}}"
+          name: "db01"
+          project: Vprofile
+          Owner: Devops Team
+        group_id: "{{ vprostackSG_out.group_id }}"
+        vpc_subnet_id: "{{privsub1id}}"
       register: db01_out
 
     - debug:
