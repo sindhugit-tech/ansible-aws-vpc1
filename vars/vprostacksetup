@@ -1,4 +1,4 @@
-
+region: "us-east-2"
 nginx_ami: ami-0c8a4fc25e0148cdd
 tomcat_ami: ami-0c8a4fc25e0148cdd
 memcache_ami: ami-0c8a4fc25e0148cdd
