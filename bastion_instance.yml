@@ -5,7 +5,7 @@
   gather_facts: no
   tasks:
     - name: Import VPC setup Variables
-      include_vars: vars/bashon_setup
+      include_vars: vars/vpc-setup
 
     - name: Import VPC setup Variables
       include_vars: vars/output_vars
