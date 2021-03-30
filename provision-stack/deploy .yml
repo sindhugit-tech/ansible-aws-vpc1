@@ -1,5 +1,5 @@
 ---
-- name: Deploy SQL file on account db
+- name: Deploy SQL file on accountt db
   hosts: dbsrvgrp
   gather_facts: no
   tasks:
