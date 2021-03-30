@@ -29,7 +29,6 @@
         - restart memcached
       tags:
         - conf
-
     handlers:
       - name: Restart memcached
         service:
