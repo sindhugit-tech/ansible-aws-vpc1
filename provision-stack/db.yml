@@ -1,5 +1,5 @@
 ---
-- name: setup Mysql with accounts db and remote login
+- name: setup Mysql with accounts db and remote of login
   hosts: dbsrvgrp
   gather_facts: no
   tasks:
